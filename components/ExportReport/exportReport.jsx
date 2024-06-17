@@ -3,7 +3,6 @@ import { Button } from 'antd';
 import axios from 'axios';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
-import moment from 'moment';
 import { homeAPI } from '@/config';
 import openSansRegular from './OpenSans-Regular.ttf.base64';
 

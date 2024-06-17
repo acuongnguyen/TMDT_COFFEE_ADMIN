@@ -4,7 +4,6 @@ import { LogoutOutlined, UserOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
 import * as actions from '../store/actions';
 import { ExportReport } from './ExportReport/exportReport';
-import { Revenue } from './DashboardPage/revenue';
 import moment from 'moment';
 
 const Header = (props) => {

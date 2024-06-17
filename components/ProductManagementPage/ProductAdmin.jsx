@@ -1,8 +1,6 @@
-import React, { useState, useRef } from 'react'
-import Link from 'next/link'
-import axios from 'axios'
+import React, { useState, useRef } from 'react';
+import axios from 'axios';
 import { swalert, swtoast } from "@/mixins/swal.mixin";
-import { FaTrash, FaPencilAlt } from "react-icons/fa"
 import { homeAPI } from '@/config';
 import { Button, Switch } from 'antd';
 
